@@ -8,7 +8,7 @@ import subprocess
 # pip install pocketsphinx
 
 recognizer = sr.Recognizer()
-newsapi= "e8c20fb903df4f53996b5c6264820043"
+newsapi= #get your own key
 client = genai.Client()
 
 def speak(text,rate=150):
